@@ -1,4 +1,5 @@
 name: Collect stats
+# Daily at 04:23 UTC; `full` rebuilds the whole history.
 
 on:
   schedule:
