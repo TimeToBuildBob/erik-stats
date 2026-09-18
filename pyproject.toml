@@ -1,0 +1,12 @@
+[project]
+name = "erik-stats"
+version = "0.1.0"
+description = "Public GitHub activity stats for Erik Bjäreholt, collected daily"
+requires-python = ">=3.12"
+dependencies = [
+    "matplotlib>=3.10",
+    "requests>=2.32",
+]
+
+[dependency-groups]
+dev = ["pytest>=8"]

@@ -1,0 +1,58 @@
+name: Collect stats
+
+on:
+  schedule:
+    - cron: "23 4 * * *"
+  workflow_dispatch:
+    inputs:
+      full:
+        description: "Rebuild every month since the account was created"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: collect-stats
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: astral-sh/setup-uv@v6
+
+      - name: Test
+        run: uv run --locked pytest -q
+
+      - name: Collect
+        env:
+          # Public data only; the default token is enough. Set STATS_GH_TOKEN
+          # (any user token, no scopes) if GraphQL rejects the repo-scoped token.
+          GITHUB_TOKEN: ${{ secrets.STATS_GH_TOKEN || secrets.GITHUB_TOKEN }}
+          FULL: ${{ inputs.full || false }}
+        run: |
+          if [ "$FULL" = "true" ]; then
+            uv run --locked collect.py --full
+          else
+            uv run --locked collect.py
+          fi
+
+      - name: Render
+        run: uv run --locked render.py
+
+      - name: Commit if changed
+        run: |
+          git add data charts README.md
+          if git diff --cached --quiet; then
+            echo "No changes"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore(stats): update $(date -u +%Y-%m-%d)"
+          git push
