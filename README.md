@@ -20,8 +20,8 @@ _Data through 2026-09 (UTC; the current month is partial). Machine-readable: [`d
 | Pull requests opened | 327 | 1,544 |
 | Pull requests merged | 307 | 1,342 |
 | Pull requests closed unmerged | 66 | 153 |
-| Issues opened | 219 | 1,117 |
-| Issues closed | 274 | 853 |
+| Issues opened | 220 | 1,118 |
+| Issues closed | 275 | 854 |
 | Pull request reviews | 282 | 845 |
 | Commits | 804 | 14,159 |
 <!-- stats:end -->
