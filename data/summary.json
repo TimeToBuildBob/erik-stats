@@ -1,24 +1,24 @@
 {
   "as_of_month": "2026-09",
   "all_time": {
-    "issue_comments": 8049,
-    "prs_opened": 1551,
-    "prs_merged": 1349,
+    "issue_comments": 8056,
+    "prs_opened": 1553,
+    "prs_merged": 1351,
     "prs_closed": 153,
     "issues_opened": 1120,
     "issues_closed": 860,
     "reviews": 845,
-    "commits": 14167
+    "commits": 14170
   },
   "last_12_months": {
-    "issue_comments": 2909,
-    "prs_opened": 334,
-    "prs_merged": 314,
+    "issue_comments": 2916,
+    "prs_opened": 336,
+    "prs_merged": 316,
     "prs_closed": 66,
     "issues_opened": 222,
     "issues_closed": 281,
     "reviews": 282,
-    "commits": 812
+    "commits": 815
   },
   "last_month_complete": {
     "issue_comments": 253,
