@@ -12,18 +12,18 @@ Public GitHub activity of [@ErikBjare](https://github.com/ErikBjare) over time, 
 ## Latest numbers
 
 <!-- stats:start -->
-_Data through 2026-09 (UTC; the current month is partial). Machine-readable: [`data/summary.json`](data/summary.json)._
+_Data through 2026-10 (UTC; the current month is partial). Machine-readable: [`data/summary.json`](data/summary.json)._
 
 | Metric | Last 12 months | All time |
 |---|---:|---:|
-| Issue and PR comments | 3,109 | 8,249 |
-| Pull requests opened | 405 | 1,622 |
-| Pull requests merged | 382 | 1,417 |
-| Pull requests closed unmerged | 66 | 153 |
-| Issues opened | 233 | 1,131 |
-| Issues closed | 293 | 872 |
-| Pull request reviews | 284 | 847 |
-| Commits | 880 | 14,235 |
+| Issue and PR comments | 2,948 | 8,251 |
+| Pull requests opened | 383 | 1,622 |
+| Pull requests merged | 362 | 1,417 |
+| Pull requests closed unmerged | 58 | 153 |
+| Issues opened | 208 | 1,131 |
+| Issues closed | 257 | 872 |
+| Pull request reviews | 263 | 847 |
+| Commits | 742 | 14,235 |
 <!-- stats:end -->
 
 ## Data
