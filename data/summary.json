@@ -3,22 +3,22 @@
   "all_time": {
     "issue_comments": 8425,
     "prs_opened": 1688,
-    "prs_merged": 1485,
+    "prs_merged": 1486,
     "prs_closed": 153,
     "issues_opened": 1144,
     "issues_closed": 888,
     "reviews": 850,
-    "commits": 14337
+    "commits": 14338
   },
   "last_12_months": {
     "issue_comments": 3122,
     "prs_opened": 449,
-    "prs_merged": 430,
+    "prs_merged": 431,
     "prs_closed": 58,
     "issues_opened": 221,
     "issues_closed": 273,
     "reviews": 266,
-    "commits": 844
+    "commits": 845
   },
   "last_month_complete": {
     "issue_comments": 488,
