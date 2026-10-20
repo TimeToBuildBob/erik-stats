@@ -16,14 +16,14 @@ _Data through 2026-10 (UTC; the current month is partial). Machine-readable: [`d
 
 | Metric | Last 12 months | All time |
 |---|---:|---:|
-| Issue and PR comments | 3,246 | 8,549 |
-| Pull requests opened | 482 | 1,721 |
-| Pull requests merged | 464 | 1,519 |
-| Pull requests closed unmerged | 60 | 155 |
-| Issues opened | 226 | 1,149 |
-| Issues closed | 293 | 908 |
-| Pull request reviews | 266 | 850 |
-| Commits | 878 | 14,371 |
+| Issue and PR comments | 3,278 | 8,581 |
+| Pull requests opened | 485 | 1,724 |
+| Pull requests merged | 466 | 1,521 |
+| Pull requests closed unmerged | 61 | 156 |
+| Issues opened | 227 | 1,150 |
+| Issues closed | 294 | 909 |
+| Pull request reviews | 267 | 851 |
+| Commits | 882 | 14,375 |
 <!-- stats:end -->
 
 ## Data
