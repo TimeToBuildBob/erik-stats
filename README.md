@@ -16,7 +16,7 @@ _Data through 2026-11 (UTC; the current month is partial). Machine-readable: [`d
 
 | Metric | Last 12 months | All time |
 |---|---:|---:|
-| Issue and PR comments | 3,336 | 8,751 |
+| Issue and PR comments | 3,339 | 8,754 |
 | Pull requests opened | 486 | 1,743 |
 | Pull requests merged | 464 | 1,536 |
 | Pull requests closed unmerged | 57 | 157 |

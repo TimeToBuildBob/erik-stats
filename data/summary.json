@@ -1,7 +1,7 @@
 {
   "as_of_month": "2026-11",
   "all_time": {
-    "issue_comments": 8751,
+    "issue_comments": 8754,
     "prs_opened": 1743,
     "prs_merged": 1536,
     "prs_closed": 157,
@@ -11,7 +11,7 @@
     "commits": 14396
   },
   "last_12_months": {
-    "issue_comments": 3336,
+    "issue_comments": 3339,
     "prs_opened": 486,
     "prs_merged": 464,
     "prs_closed": 57,
